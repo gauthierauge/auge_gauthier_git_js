@@ -79,5 +79,4 @@ const convertirMonnaie = async ({montant, deviseSource, deviseCible}: ConvertirM
     };
 };
 
-
 console.log(await convertirMonnaie({montant: 100, deviseSource: 'VND', deviseCible: 'CUP'}));
